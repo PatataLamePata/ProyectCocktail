@@ -1,0 +1,18 @@
+#contenedorTitulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.frase{
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 600px) {
+    #contenedorTitulo{
+        margin-top: 75%;
+        margin-bottom: 75%;
+    }
+  }
